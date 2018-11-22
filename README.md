@@ -4,11 +4,11 @@
 
 ### Sigfox Cloud
 
-1.  Head over to the [activate](https://buy.sigfox.com/activate)
+1.  Head over to the [activate](https://buy.sigfox.com/activate).
 
 2. Select your country, enter the device ID & PAC and finish creating your account.
 
-3. Once done, log on the [backend](https://backend.sigfox.com/)
+3. Once done, log on the [backend](https://backend.sigfox.com/).
 
 4. Try sending a message by double pressing the button.
 
@@ -16,20 +16,20 @@
 
 ### Sens'it development environment
 
-1. Download and install [GNU Arm Embedded Toolchain version 7.2.1](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads)
+1. Download and install [GNU Arm Embedded Toolchain version 7.2.1](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads).
 
-2. Download and install [dfu-util 0.9](http://dfu-util.sourceforge.net/)
+2. Download and install [dfu-util 0.9](http://dfu-util.sourceforge.net/).
 
 3. Edit `./sensit-sdk-v2.0.0/sdk/Makefile`:
 
-    * Make sure your `CC`, `BIN_TOOL`, `SIZE_TOOL` paths links to the right folder
+    * Make sure your `CC`, `BIN_TOOL`, `SIZE_TOOL` paths links to the right folder.
     * Example:
         ```
         CC = /Users/antoine/Documents/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc
         BIN_TOOL  = /Users/antoine/Documents/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-objcopy
         SIZE_TOOL = /Users/antoine/Documents/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-size
         ```
-4. **Copy** and **paste** the content of `main_TEMPERATURE.c` in `main.c`
+4. **Copy** and **paste** the content of `main_TEMPERATURE.c` in `main.c`.
 
 ## Program your Sens'it
 
