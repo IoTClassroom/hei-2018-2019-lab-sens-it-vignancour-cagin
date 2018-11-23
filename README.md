@@ -16,11 +16,17 @@
 
 ### Sens'it development environment
 
+#### Linux / Mac OS
+
 1. Download and install [GNU Arm Embedded Toolchain version 7.2.1](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads).
 
 2. Download and install [dfu-util 0.9](http://dfu-util.sourceforge.net/).
 
-3. Edit `./sensit-sdk-v2.0.0/sdk/Makefile`:
+3. Run `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"``
+
+4. Run ```brew install dfu-util```
+
+5. Edit `./sensit-sdk-v2.0.0/sdk/Makefile`:
 
     * Make sure your `CC`, `BIN_TOOL`, `SIZE_TOOL` paths links to the right folder.
     * Example:
@@ -29,7 +35,40 @@
         BIN_TOOL  = /Users/antoine/Documents/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-objcopy
         SIZE_TOOL = /Users/antoine/Documents/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-size
         ```
-4. **Copy** and **paste** the content of `main_TEMPERATURE.c` in `main.c`.
+        
+6. In `./sensit-sdk-v2.0.0/sdk/`, run `make temperature`.
+
+7. If there are no warnings, run `make prog`.
+
+**Hourray, you just flashed the `main_TEMPERATURE.c` firmware.**
+
+Now check on the Sigfox Backend if you received some messages.
+
+### Windows
+
+1. Download and install [GNU Arm Embedded Toolchain version 7.2.1](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads). Make sur to tick the "Add path variables" at the end of installation.
+
+2. Download and unzip [dfu-util-0.9-win64.zip](http://dfu-util.sourceforge.net/releases/).
+
+3. Download [Make for Windows](http://gnuwin32.sourceforge.net/downlinks/make.php)
+
+4. Edit `./sensit-sdk-v2.0.0/sdk/Makefile`:
+
+    * Set `LIB_PATH`, `BIN_PATH`, `OBJ_PATH` paths links to the right folder.
+    * Example:
+        ```
+        LIB_PATH = C:/Users/antoine/Documents/sensit-sdk-v2.0.0/sdk/lib
+        BIN_PATH = C:/Users/antoine/Documents/sensit-sdk-v2.0.0/sdk/bin
+        OBJ_PATH = C:/Users/antoine/Documents/sensit-sdk-v2.0.0/sdk/obj
+        ```
+
+5. In `./sensit-sdk-v2.0.0/sdk/`, run `make temperature`.
+
+6. If there are no warnings, run `make prog`.
+
+**Hourray, you just flashed the `main_TEMPERATURE.c` firmware.**
+
+Now check on the Sigfox Backend if you received some messages.
 
 ## Program your Sens'it
 
