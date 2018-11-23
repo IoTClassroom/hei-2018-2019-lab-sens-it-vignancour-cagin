@@ -48,3 +48,11 @@ If you want to return to the original firmware of the Sens'it 3, use the followi
 dfu-util -a 0 -s 0x08000000:leave -D bin/sensit_discovery_vX.X.X.bin
 ```
 Replace `X.X.X` with the current version of the Discovery firmware available in the `bin` folder.
+
+### Don't forget to:
+
+1. Create a new `README.md` file in your repo.
+2. Insert:
+```
+My Sens'it ID: <YOUR_SENSIT_ID>
+```
