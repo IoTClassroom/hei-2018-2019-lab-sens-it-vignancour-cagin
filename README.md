@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lab Sens'it
 
 ## Prerequesite
@@ -158,3 +159,6 @@ If you want to return to the **original firmware** of the Sens'it 3, use the fol
 dfu-util -a 0 -s 0x08000000:leave -D bin/sensit_discovery_vX.X.X.bin
 ```
 Replace `X.X.X` with the current version of the Discovery firmware available in the `bin` folder.
+=======
+My Sens'it ID: <B43669>
+>>>>>>> 6d7e951a6aa68869374788c1707997552c4501a9

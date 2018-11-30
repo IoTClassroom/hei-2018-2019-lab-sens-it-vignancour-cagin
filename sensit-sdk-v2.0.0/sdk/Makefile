@@ -7,14 +7,23 @@
 # SDK LIBRARY
 # -----------
 LIB_NAME = SENSIT_SDK_V2.0.0
+<<<<<<< HEAD
 LIB_PATH = C:/Users/Mathilde/Documents/HEI/HEI4ITI/ProgEmbarquee/hei-2018-2019-lab-sens-it-vignancour-cagin/sensit-sdk-v2.0.0/sdk/lib
+=======
+LIB_PATH = C:/Users/Mathilde/Documents/HEI/HEI4ITI/ProgrammationEmbarquee/hei-2018-2019-lab-sens-it-vignancour-cagin-master/hei-2018-2019-lab-sens-it-vignancour-cagin-master/sensit-sdk-v2.0.0/sdk/lib
+>>>>>>> 6d7e951a6aa68869374788c1707997552c4501a9
 
 
 # --------------
 # OUTPUT FOLDERS
 # --------------
+<<<<<<< HEAD
 BIN_PATH =  C:/Users/Mathilde/Documents/HEI/HEI4ITI/ProgEmbarquee/hei-2018-2019-lab-sens-it-vignancour-cagin/sensit-sdk-v2.0.0/sdk/bin
 OBJ_PATH =  C:/Users/Mathilde/Documents/HEI/HEI4ITI/ProgEmbarquee/hei-2018-2019-lab-sens-it-vignancour-cagin/sensit-sdk-v2.0.0/sdk/obj
+=======
+BIN_PATH = C:/Users/Mathilde/Documents/HEI/HEI4ITI/ProgrammationEmbarquee/hei-2018-2019-lab-sens-it-vignancour-cagin-master/hei-2018-2019-lab-sens-it-vignancour-cagin-master/sensit-sdk-v2.0.0/sdk/bin
+OBJ_PATH = C:/Users/Mathilde/Documents/HEI/HEI4ITI/ProgrammationEmbarquee/hei-2018-2019-lab-sens-it-vignancour-cagin-master/hei-2018-2019-lab-sens-it-vignancour-cagin-master/sensit-sdk-v2.0.0/sdk/obj
+>>>>>>> 6d7e951a6aa68869374788c1707997552c4501a9
 
 
 # ------------
