@@ -7,14 +7,14 @@
 # SDK LIBRARY
 # -----------
 LIB_NAME = SENSIT_SDK_V2.0.0
-LIB_PATH = C:/Users/Mathilde/Documents/HEI/HEI4ITI/ProgEmbarquee/labSensit-vcm/sensit-sdk-v2.0.0/sdk/lib
+LIB_PATH = C:/Users/Mathilde/Documents/HEI/HEI4ITI/ProgEmbarquee/hei-2018-2019-lab-sens-it-vignancour-cagin/sensit-sdk-v2.0.0/sdk/lib
 
 
 # --------------
 # OUTPUT FOLDERS
 # --------------
-BIN_PATH =  C:/Users/Mathilde/Documents/HEI/HEI4ITI/ProgEmbarquee/labSensit-vcm/sensit-sdk-v2.0.0/sdk/bin
-OBJ_PATH =  C:/Users/Mathilde/Documents/HEI/HEI4ITI/ProgEmbarquee/labSensit-vcm/sensit-sdk-v2.0.0/sdk/obj
+BIN_PATH =  C:/Users/Mathilde/Documents/HEI/HEI4ITI/ProgEmbarquee/hei-2018-2019-lab-sens-it-vignancour-cagin/sensit-sdk-v2.0.0/sdk/bin
+OBJ_PATH =  C:/Users/Mathilde/Documents/HEI/HEI4ITI/ProgEmbarquee/hei-2018-2019-lab-sens-it-vignancour-cagin/sensit-sdk-v2.0.0/sdk/obj
 
 
 # ------------

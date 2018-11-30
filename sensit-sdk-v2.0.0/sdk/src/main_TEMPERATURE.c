@@ -88,7 +88,7 @@ int main()
         if ((pending_interrupt & INTERRUPT_MASK_BUTTON) == INTERRUPT_MASK_BUTTON)
         {
             /* RGB Led ON during count of button presses */
-            SENSIT_API_set_rgb_led(RGB_GREEN);
+            SENSIT_API_set_rgb_led(RGB_BLUE);
 
             /* Count number of presses */
             btn = BUTTON_handler();
